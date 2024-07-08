@@ -4,7 +4,7 @@ Bootstrapping Language-Image Pretraining (BLIP):  Leverages both text and image 
 
 For this, we used "Salesforce/blip-image-captioning-base" from Huggings Face.
 
-We generated a caption for a personal photo.  We also generated condtional & unconditional captions for a sample photo.  The ability to respond to conditional captions varied.  For example:
+First, we generated a caption for a personal photo.  Next, we generated condtional & unconditional captions for a sample photo from google, below.  The ability to respond to conditional captions varied.  For example:
 
 1. text = "The weather in the picture is" Responce:  the weather in the picture is clear and sunny
 2. text = "The mood of the women in the picture is"  Responce:  the mood of the women in the picture is very attractive
